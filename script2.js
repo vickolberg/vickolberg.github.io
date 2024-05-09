@@ -30,6 +30,10 @@ function changeImage() {
     if (currentIndex > 8) {
         console.log(currentIndex);
         document.getElementById("result").innerText = "You lost!";
+        giveAway = document.createElement("h4");
+        giveAway.id = "giveAway";
+        giveAway.textContent = `The word was: ${secretWord}`;
+        document.body.appendChild(giveAway);
 
         // Cancel event listener when player loses
         document.querySelectorAll('.alphabetLetter').forEach(button => {
