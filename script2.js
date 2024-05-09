@@ -24,7 +24,22 @@ const imageFiles = [
 //no touch. works well.
 function changeImage() {
     image.setAttribute('src', imageFiles[currentIndex]);
-    currentIndex = (currentIndex + 1) % imageFiles.length; // Increment index, loop back if exceeds array length
+    currentIndex++;
+
+    // Check if all images have been shown
+    if (currentIndex > 8) {
+        console.log(currentIndex);
+        let lostbtn = document.createElement("button");
+        lostbtn.id = "lostbtn";
+        lostbtn.style.display = "inline";
+        lostbtn.textContent = "You lose";
+        document.body.appendChild(lostbtn);
+
+        // Cancel event listener when player loses
+        document.querySelectorAll('.alphabetLetter').forEach(button => {
+            button.removeEventListener("click", handleButtonClick);
+        });
+    }
 }
 
 // Function to generate styled underlines 
