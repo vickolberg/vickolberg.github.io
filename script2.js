@@ -9,15 +9,15 @@ console.log(secretWordArray);
 
 // image files stored in an array
 const imageFiles = [
-    "/hangmanImages/image2.png",
-    "/hangmanImages/image3.png",
-    "/hangmanImages/image4.png",
-    "/hangmanImages/image5.png",
-    "/hangmanImages/image6.png",
-    "/hangmanImages/image7.png",
-    "/hangmanImages/image8.png",
-    "/hangmanImages/image9.png",
-    "/hangmanImages/image10.png"
+    "/vickolberg.github.io/hangmanImages/image2.png",
+    "/vickolberg.github.io/hangmanImages/image3.png",
+    "/vickolberg.github.io/hangmanImages/image4.png",
+    "/vickolberg.github.io/hangmanImages/image5.png",
+    "/vickolberg.github.io/hangmanImages/image6.png",
+    "/vickolberg.github.io/hangmanImages/image7.png",
+    "/vickolberg.github.io/hangmanImages/image8.png",
+    "/vickolberg.github.io/hangmanImages/image9.png",
+    "/vickolberg.github.io/hangmanImages/image10.png"
 ];
 
 // Function to change the image
