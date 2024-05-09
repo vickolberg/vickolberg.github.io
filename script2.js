@@ -29,11 +29,7 @@ function changeImage() {
     // Check if all images have been shown
     if (currentIndex > 8) {
         console.log(currentIndex);
-        let lostbtn = document.createElement("button");
-        lostbtn.id = "lostbtn";
-        lostbtn.style.display = "inline";
-        lostbtn.textContent = "You lose";
-        document.body.appendChild(lostbtn);
+        document.getElementById("result").innerText = "You lost!";
 
         // Cancel event listener when player loses
         document.querySelectorAll('.alphabetLetter').forEach(button => {
