@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: green;
+}
+body {
+    background-color: black;
+    color: green;
+}
+#buttonsDiv {
+    display: inline-block;
+    top: 5px;
+    position: absolute;
+    margin-left: 310px;
+}
+.alphabetLetter {
+    width: 80px;
+    height: 80px;
+    border: 1px solid green;
+    background-color: transparent;
+    color: green;
+    margin: 8px;
+    cursor: pointer;
+    font-size: 26px;
+}
+.alphabetLetter:hover {
+    background-color: #28282B;
+}
+#quitbtn {
+    border: 1px solid green;
+    background-color: transparent;
+    color: green;
+    font-size: 18px;
+    bottom: 20px;
+    right: 20px;
+    padding: 5px;
+    position: absolute;
+}
+#blanks {
+    list-style-type: none;
+    text-align: center;
+    font-size: 60px;
+    margin-top: -125px;
+}
+#result {
+    font-size: 60px;
+    position:absolute;
+    left: 560px;
+    top: 300px;
+}
+#resetButton {
+    background-color: transparent;
+    color: green;
+    border: 3px dotted green;
+    text-align: center;
+    left: 590px;
+    top: 380px;
+    position: absolute;
+    width: 170px;
+    height: 60px;
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+}
+#resetButton:hover {
+    background-color: #28282B;
+}

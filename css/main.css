@@ -1,0 +1,34 @@
+body {
+    color: green;
+    background-color: black;
+}
+h1 {
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 70px;
+}
+h2 {
+    text-align: center;
+    font-size: 42px;
+    font-family:'Courier New', Courier, monospace;
+    margin-top: 100px;
+}
+button {
+    font-family:'Courier New', Courier, monospace;
+    display: inline-block;
+    width: 370px;
+    height: 170px;
+    color: green;
+    border: 8px solid green;
+    border-radius: 1px;
+    background-color: transparent;
+    margin-right: 120px;
+    margin-left: 490px;
+    margin-top: 50px;
+    font-size: 35px;
+    font-weight:900;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #28282B;
+}
