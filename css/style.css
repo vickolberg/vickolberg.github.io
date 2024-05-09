@@ -65,3 +65,7 @@ body {
 #resetButton:hover {
     background-color: #28282B;
 }
+#giveAway {
+    text-align: center;
+    font-size: 50px;
+}
