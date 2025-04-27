@@ -2,9 +2,9 @@ let image = document.getElementById("image");
 let button = document.getElementById("button");
 let currentIndex = 0;
 let secretWord = localStorage.getItem('secretWord');
-let secretWordAuto = localStorage.getItem('secretWordAuto');
 
 let secretWordArray = secretWord.split("");
+
 console.log(secretWordArray);
 
 // image files stored in an array
