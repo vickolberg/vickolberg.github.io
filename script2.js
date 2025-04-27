@@ -5,7 +5,7 @@ let secretWord = localStorage.getItem('secretWord');
 
 let secretWordArray = secretWord.split("");
 
-console.log(secretWordArray);
+//console.log(secretWordArray);
 
 // image files stored in an array - drew them on the ipad
 const imageFiles = [
@@ -25,7 +25,7 @@ function changeImage() {
     currentIndex++;
 
     if (currentIndex > 8) {
-        console.log(currentIndex);
+        //console.log(currentIndex);
         document.getElementById("result").innerText = "You lost!";
         giveAway = document.createElement("h4");
         giveAway.id = "giveAway";
